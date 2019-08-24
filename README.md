@@ -16,7 +16,7 @@
 <br>
 
 <div align="center">
-	<b>Follow the <a href="https://twitter.com/awesome__re">Awesome Twitter account</a> for updates on new list additions.</b>
+	<b>Follow <a href="https://github.com/mffdsp"> GitHUB</a> for updates.</b>
 </div>
 
 
