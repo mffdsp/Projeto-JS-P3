@@ -1,7 +1,6 @@
 <div align="center">
 	<img width="500" height="350" src="https://static.wixstatic.com/media/0815e3_cf64e30eb89f4fbda7b90d2608ebfce9~mv2.jpg" alt="Awesome">
 	<br>
-	<br>
 </div>
 
 <p align="center">
