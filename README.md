@@ -52,4 +52,5 @@ ou [https://projeto-js-cdf7e.web.app](https://projeto-js-cdf7e.web.app)
 
 <div align="center">
 	<img src="src/preview.png" alt="Awesome">
+	obs. Float button -> responsável por diagnóstico.
 <br>
