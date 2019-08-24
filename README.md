@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>
-	<a https://github.com/mffdsp/Projeto-JS-P3/blob/master>
+	<a href = "https://github.com/mffdsp/Projeto-JS-P3/blob/master">
 	 PROJETO WEB
 	</a> 
 	</h1>
