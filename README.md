@@ -7,5 +7,5 @@ Link -> [https://projeto-js-cdf7e.firebaseapp.com](https://projeto-js-cdf7e.fire
 
 
 <p align="center">
-  <img width="460" height="300" src="src/table.png">
+  <img  src="src/table.png">
 </p>
