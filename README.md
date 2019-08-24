@@ -8,8 +8,7 @@
 	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/tree/master/js">Verificar JS</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/main.css">CSS</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/index.html">index.html</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://twitter.com/awesome__re">Twitter</a>&nbsp;&nbsp;&nbsp;
-	<a href="https://www.redbubble.com/people/sindresorhus/works/30364188-awesome-logo">Stickers & t-shirts</a>
+	<a href="mffsp@ic.ufal.br">mffsp@ic.ufal.br</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
