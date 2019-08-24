@@ -1,0 +1,99 @@
+<html>
+
+<head>
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Projeto Web 0</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<link rel="icon" href="/img/like.png">
+
+<link rel = "stylesheet" type = "text/css" href = "main.css">
+
+<script  src="index.js"></script>
+
+</head>
+
+<body  style="background-image:url('/img/backG.jpg')" >
+     <!-- update the version number as needed -->
+     <script defer src="/__/firebase/6.3.5/firebase-app.js"></script>
+     <!-- include only the Firebase features as you need -->
+     <script defer src="/__/firebase/6.3.5/firebase-auth.js"></script>
+     <script defer src="/__/firebase/6.3.5/firebase-database.js"></script>
+     <script defer src="/__/firebase/6.3.5/firebase-messaging.jss"></script>
+     <script defer src="/__/firebase/6.3.5/firebase-storage.js"></script>
+     <!-- initialize the SDK after all desired features are loaded -->
+     <script defer src="/__/firebase/init.js"></script>
+    
+    <header class = "mainMenu">
+    <main>
+        <div class = "h1">
+            <div class = "logo">
+                <img onClick = "f()" src ="/img/mainICbg.png">
+            </div>
+            <div class = "support">
+                <ul>
+                    <li class = "settings"><a href = "https://sites.google.com/a/ic.ufal.br/comp215/"><img src="/img/settings.png" alt=""></a></li>
+                    <li class = "ask"><a href = "https://sites.google.com/a/ic.ufal.br/comp215/"><img src="/img/ask.png" alt=""></a></li>
+                    <li class = "custService"><a onClick="contact()"><img src="/img/customer-service.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+       
+    </main> 
+    
+    </header>
+   
+<main>
+       
+            <div class = "barrinha">
+                <ul>
+                    <li>
+                        <input type="button" class = "begin" value="Adicionar Paciente" id = "bt1" onClick="addBTN()">
+                    </li>
+                    <li>
+                        <input type="button" class = "begin" value="Editar Informações" id = "bt2" onClick="editBTN()">
+                    </li>
+                    <li>
+                        <input type="button" class = "begin" value="Cadastrar Doença" id = "bt3" onClick="doencaBTN()">
+                    </li>
+                    
+                    <li>
+                        <input type="button" class = "begin"value="Adicionar Med." id = "bt5"onClick="medicamentoBTN()">
+                    </li>
+                    <li>
+                            <input type="button" class = "begin" value="Listar Doenças" id = "bt4" onClick="ldoencaBTN()">
+                    </li>
+                    <li>
+                        <input type="button" class = "begin"value="Listar Med." id = "bt6"onClick="listMEDBTN()">
+                    </li>
+                </ul>
+                   
+            </div>
+
+            <div id = "container9">
+                <p class = "mapa" >Mapa de diagnósticos</p>
+                
+            <div class="active-purple-3 active-purple-4 mb-4">
+                <p class = "CPF">Insira o CPF do paciente que deseja diagnósticar:</p>
+                <input id = "diags" class="form-control" type="text" placeholder="CPF" aria-label="Search">
+                <button  onClick="searchToDiag()" >IR</button>
+                <div class = "CPF" id = "INFO"></div>
+            </div>
+        
+            </div>
+            <a href="#" class="float">
+                <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
+            </a>
+        
+
+</main>
+    
+</body>
+<script src="js/index.js"></script>
+<script src="js/med.js"></script>
+<script src="js/start.js"></script>
+<script src="js/patient.js"></script>
+<script src="js/desise.js"></script>
+<script src="js/diag.js"></script>
+<script src="js/format.js"></script>
+</html>
