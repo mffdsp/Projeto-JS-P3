@@ -2,13 +2,12 @@
 	<img width="500" height="350" src="https://static.wixstatic.com/media/0815e3_cf64e30eb89f4fbda7b90d2608ebfce9~mv2.jpg" alt="Awesome">
 	<br>
 	<br>
-	<br>
 </div>
 
 <p align="center">
-	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/tree/master/js">What is an awesome list?</a>&nbsp;&nbsp;&nbsp;
-	<a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
-	<a href="create-list.md">Creating a list</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/tree/master/js">Verificar JS</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/main.css">CSS</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/index.html">index.html</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://twitter.com/awesome__re">Twitter</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://www.redbubble.com/people/sindresorhus/works/30364188-awesome-logo">Stickers & t-shirts</a>
 </p>
