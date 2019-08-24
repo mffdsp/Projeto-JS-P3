@@ -6,6 +6,10 @@ Link -> [https://projeto-js-cdf7e.firebaseapp.com](https://projeto-js-cdf7e.fire
         ou [https://projeto-js-cdf7e.web.app](https://projeto-js-cdf7e.web.app)
 
 
+## Descrição
+
+        Desenvolvido sistema de inserção de pacientes, doenças e medicamentos, com intuito de gerir as combinações entre os elementos e gerar um algoritmo simples de "diagnóstico". Basicamente, foi desenvolvido com JAVA-SCRIPT, CSS, HTML E JQUERY.
+        
 <p align="center">
   <img  src="src/table.png">
 </p>
