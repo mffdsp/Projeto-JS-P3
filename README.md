@@ -1,6 +1,6 @@
 <div align="center">
 	<a href="https://projeto-js-cdf7e.firebaseapp.com">
-	<h1> PROJETO WEB </h1>
+	 PROJETO WEB
 	</a> 
 </div>
 <div align="center">
