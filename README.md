@@ -14,6 +14,6 @@ A tabela abaixo explica de maneira mais específica as funções do site.
   <img  src="src/table.png">
 </p>
 
-[![Awesome](google.com)
+[Awesome](google.com)
 
 Dúvidas = mffsp@ic.ufal.br
