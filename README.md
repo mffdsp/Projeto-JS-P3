@@ -16,7 +16,7 @@
 <br>
 
 <div align="center">
-	<b>Follow <a href="https://github.com/mffdsp"> GitHUB</a> for updates.</b>
+	<b>Siga meu <a href="https://github.com/mffdsp"> github</a> para atualizações.</b>
 </div>
 
 
