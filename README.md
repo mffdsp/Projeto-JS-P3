@@ -6,7 +6,7 @@
 </div>
 
 <p align="center">
-	<a href="awesome.md">What is an awesome list?</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/tree/master/js">What is an awesome list?</a>&nbsp;&nbsp;&nbsp;
 	<a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
 	<a href="create-list.md">Creating a list</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://twitter.com/awesome__re">Twitter</a>&nbsp;&nbsp;&nbsp;
