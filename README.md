@@ -51,6 +51,6 @@ ou [https://js-health.web.app/](https://js-health.web.app/)
 # PreView
 
 <div align="center">
-	<img src="src/preview.png" alt="Awesome">
+	<img src="src/preview_1.png" alt="Awesome">
 	obs. Float button -> responsável por diagnóstico.
 <br>
