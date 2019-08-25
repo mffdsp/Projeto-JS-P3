@@ -15,7 +15,7 @@
 	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/main.css">CSS</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/index.html">index.html</a>&nbsp;&nbsp;&nbsp;
 	<a href="https://js-health.firebaseapp.com/">HOST</a>&nbsp;&nbsp;&nbsp;
-	<a href="href="mailto:mffsp@ic.ufal.br">mffsp@ic.ufal.br</a>&nbsp;&nbsp;&nbsp;
+	<a href="mailto:mffsp@ic.ufal.br">mffsp@ic.ufal.br</a>&nbsp;&nbsp;&nbsp;
 	
 </p>
 
