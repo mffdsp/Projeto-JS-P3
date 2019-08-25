@@ -31,12 +31,13 @@ function findtrue(){
         alert("Ainda não há doenças adicionadas ao sistema!");
         backToBegin();
     }
+    let saveINDEX = 0;
     for(i = 0; i < CONT2; i++){
 
         if(paciente[INDEX].sintomas.toLowerCase().includes(doenca[i].sintomas.toLowerCase()) && doenca[i].aparicao > aparicaosaida){
             doencasaida = doenca[i].nome;
             aparicaosaida = doenca[i].aparicao;
-            
+            saveINDEX = i;
         }
     }
     for(i = 0; i < CONT3; i++){
@@ -44,6 +45,9 @@ function findtrue(){
             break;
         }
         if(paciente[INDEX].sintomas.toLowerCase().includes(med[i].trata.toLowerCase())){
+            medsaida = med[i].nome;
+        }
+        if(doenca[saveINDEX].tratamento.toLowerCase().includes(med[i].nome.toLowerCase())){
             medsaida = med[i].nome;
         }
     }

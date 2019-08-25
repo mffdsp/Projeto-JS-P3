@@ -49,12 +49,12 @@ function primitiveDOC(){
     return;
   }
   justOnly = true;
-  var nome = ["Cancer", "HIV", "Gripe", "Lupus", "Hanseniase"];
-  var aparicao = [10,50,30,10,65];
-  var dor = ["Pe", "cabeça", "Orelha", "fígado", "Asa"];
-  var sintomas = ["dor", "febre", "febre", "febre", "febre"];
-  var prevencao = ["vacina", "vacina", "vacina, vacina", "vacina", "vacina"];
-  var tratamento = ["Soro", "Soro", "Soro", "Soro", "Soro", "Soro"];
+  var nome = ["Virose", "Diabetes", "Gripe", "Lupus", "Hanseniase"];
+  var aparicao = [90,50,30,10,65];
+  var dor = ["Corpo", "Pés e corpo", "Orelha", "fígado", "Pele"];
+  var sintomas = ["dor", "Fome, Feridas", "febre", "Fadiga", "Manchas"];
+  var prevencao = ["vacina", "Alimentação Correta", "vacina", "vacina", "vacina"];
+  var tratamento = ["Dipirona", "Azukon MR", "Paracetamol", "Anti-inflamatórios não esteroides", "Rifampicina, Dapsona"];
 
   for(var i  = 0; i < 5; i++){
     doenca[i] = new Object();

@@ -2,6 +2,8 @@ let CONT3 = 1;
 let med = [];
 var justOnlyMD = false;
 
+loadLS();
+
 class Medicamento {
     constructor(nome, trata, uso) {
       this.nome = nome;
@@ -10,9 +12,6 @@ class Medicamento {
     }
 }
 
-loadLS();
-
- 
 function addDesise(value, nome){
 
   var elemento_pai = document.getElementById("myULMED");
@@ -24,6 +23,8 @@ function addDesise(value, nome){
     verMED(titulo.id);
   };
   elemento_pai.appendChild(titulo);
+
+  saveLS3();
 }
 
 function listMEDBTN(){
@@ -50,7 +51,6 @@ function addPRIMITIVE(){
 
     for(var i  = 1; i < CONT2; i++){
       addDesise(i, med[i].nome);
-    
     }
     saveLS3();
   }
@@ -90,7 +90,7 @@ function saveMED(){
     if(nome == "" || trata == "" || uso == ""){
       alert("Todos os dados devem ser preenchidos!");
       return;
-      
+
     }
     med[CONT3] = new Medicamento(nome, trata, uso);
     alert("Medicamento salvo!");

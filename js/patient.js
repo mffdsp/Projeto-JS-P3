@@ -16,21 +16,6 @@ function saveLS3(){
   localStorage.setItem("med", JSON.stringify(med));
   localStorage.setItem("CONT3", JSON.stringify(CONT3));
 }
-function loadLS(){
-
-  if(localStorage.hasOwnProperty("patient") && localStorage.hasOwnProperty("CONT")){
-    paciente = JSON.parse(localStorage.getItem("patient"));
-    CONT = JSON.parse(localStorage.getItem("CONT"));
-  }
-  if(localStorage.hasOwnProperty("desise") && localStorage.hasOwnProperty("CONT2")){
-    doenca = JSON.parse(localStorage.getItem("desise"));
-    CONT2 = JSON.parse(localStorage.getItem("CONT2"));
-  }
-  if(localStorage.hasOwnProperty("med") && localStorage.hasOwnProperty("CONT3")){
-    med = JSON.parse(localStorage.getItem("med"));
-    CONT3 = JSON.parse(localStorage.getItem("CONT3"));
-  }
-}
 
 
 class Paciente {
@@ -78,8 +63,11 @@ function saveForm(form) {
     if(fname == "" || fage == "" || fadress == "" || fsangue == "" || fsintomas == ""){
         alert("Todos os dados devem ser preenchidos!");
         return;
-    } 
-    
+    }
+    if(!somenteNumeros(fCPF)){
+      alert("Cpf inválido");
+      return;
+    }
     paciente[CONT] = new Paciente(fname, fage, fadress, fsangue, fsintomas, fCPF);
     
     
@@ -110,15 +98,17 @@ function saveEdit(){
     paciente[INDEX].tipoS =  document.getElementById("formSANGUE3").value ;
 
     alert('Alterações Feitas com sucesso.');
-    saveLS2();
+    saveLS();
     location.href = "index.html";
 }
 
 function search(){
     INDEX = 0;
     var find = false;
-    for(var i = 0; i < 10; i++){
+    for(var i = 0; i < 100; i++){
       if(paciente[i] != null){
+        console.log(paciente[i].CPF);
+        console.log(document.getElementById("editBUSCA").value);
         if(paciente[i].CPF == document.getElementById("editBUSCA").value && !find){
           find = true;
           document.getElementById("errosearch").innerHTML = "";
