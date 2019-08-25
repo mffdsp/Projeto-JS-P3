@@ -5,10 +5,8 @@ body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    cursor: url("/img/ss.png") auto;
+    cursor: url('style/cur116.cur'), auto;
     background: url("/img/backG.jpg");
-    overflow: hidden;
-
 }
 .mainMenu{
     width: 100%;
@@ -16,18 +14,22 @@ body{
     height: 100px;
 }
 
-
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:100px;
+	height:100px;
 	bottom:40px;
 	right:40px;
 	background-color:#0C9;
 	color:#FFF;
-	border-radius:50px;
+    border-radius:90px;
+    background-size: cover;
+    background-image: url('img/medicalo.png');
+    background-position: center;
+    background-repeat: no-repeat;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 3px #999;
+    
 }
 .my-float{
     font-size: 50px;
@@ -87,6 +89,7 @@ main{
     list-style: none;
 
 }
+
 
 .form-horizontal{
     margin-top: 60px;
@@ -211,6 +214,20 @@ textarea {
     border-radius: 10px 20px 30px 40px;
 
 }
+
+#finalibk{
+    width: 100%;
+    background-color: #85C1E9;
+    height: 100px;
+}
+#finali{
+
+    bottom: 10px;
+    text-align: center;
+    position: bottom;
+    margin-left: auto;
+    margin-right: auto;
+}
 .buscarBTN{
     margin-top: -5%;
     left: 0%;  
@@ -232,6 +249,16 @@ textarea {
     box-sizing: border-box; 
 }
 
+.settings:hover, .ask:hover, .custService:hover, #MAINCLICK:hover{
+    border-radius: 28px;
+    background-color: #ce93d8
+}
+
+.settings:active, .ask:active, .custService:active{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 #containerINICIAL{
     background-image : url('../img/HPC.png');
     background-size: 400px 190px;
@@ -253,10 +280,10 @@ textarea {
     box-shadow: 0px 0px 10px black;
     padding: 80px;
     box-sizing: border-box; 
-    background-image : url('pills.png');
+    background-image : url('/img/pills.png');
     background-size: 80px 80px;
     background-repeat: no-repeat;
-    background-position: 20% top;
+    background-position: 15% top;
     background-color: #85C1E9;
     border-radius: 30px 30px 30px 30px;
 }
@@ -273,10 +300,10 @@ textarea {
     box-shadow: 0px 0px 10px black;
     padding: 10px;
     box-sizing: border-box; 
-    background-image : url('pills.png');
+    background-image : url('/img/medicalo.png');
     background-size: 80px 80px;
     background-repeat: no-repeat;
-    background-position: 20% top;
+    background-position: 0% top;
     background-color: #85C1E9;
     border-radius: 30px 30px 30px 30px;
     
@@ -306,8 +333,16 @@ input[type=button]{
     margin-left: 5%;
     height: 60px;
     font-size: 90%;
+    cursor: url('style/cur223.cur'), auto;
 }
 
+input[type=button]:hover{
+    background-color: #f44336;
+}
+#MAINCLICK{
+    cursor: url('style/cur223.cur'), auto;
+
+}
 .row {
   clear: both;
 }
@@ -352,6 +387,7 @@ input[type=button]{
     padding-right: 5px;
 }
 
+
 .column {
     float: left;
     height: 45px;    
@@ -379,49 +415,36 @@ input[type=button]{
     color: red;
 }
 
-/* Include the padding and border in an element's total width and height */
-
-  
-  /* Remove margins and padding from the list */
-  ul2 {
+ul2 {
     margin: 0;
     padding: 0;
-  }
-  /* Style the list items */
-  ul2 li {
-    cursor: pointer;
+}
+ul2 li {
+    cursor: url('style/cur223.cur'), auto;
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
     background: #eee;
     font-size: 18px;
     transition: 0.2s;
-    
-    /* make the list items unselectable */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
   }
-  
-  /* Set all odd list items to a different color (zebra-stripes) */
   ul2 li:nth-child(odd) {
     background: #f9f9f9;
   }
-  
-  /* Darker background-color on hover */
+
   ul2 li:hover {
     background: #ddd;
-  }
-  
-  /* When clicked on, add a background color and strike out text */
+  }  
   ul2 li.checked {
     background: #888;
     color: #fff;
     text-decoration: line-through;
   }
-  
-  /* Add a "checked" mark when clicked on */
+
   ul2 li.checked::before {
     content: '';
     position: absolute;
@@ -434,38 +457,31 @@ input[type=button]{
     height: 15px;
     width: 7px;
   }
-  
-  /* Style the close button */
+  a{
+    cursor: url('style/cur223.cur'), auto;
+  }
   .close {
     position: absolute;
     right: 0;
     top: 0;
     padding: 12px 16px 12px 16px;
   }
-  
   .close:hover {
     background-color: #f44336;
     color: white;
   }
-  
-  /* Style the header */
   .header {
     background-color: #f44336;
     padding: 30px 40px;
     color: white;
     text-align: center;
   }
-  
-  /* Clear floats after the header */
   .header:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* Style the input */
-  
-  /* Style the "Add" button */
   .addBtn {
     padding: 10px;
     width: 25%;
@@ -474,13 +490,13 @@ input[type=button]{
     float: left;
     text-align: center;
     font-size: 16px;
-    cursor: pointer;
+    cursor: url('style/cur223.cur'), auto;
     transition: 0.3s;
     border-radius: 0;
   }
 
   .custService{
-    cursor: pointer;
+    cursor: url('style/cur223.cur'), auto;
   }
   .addBtn:hover {
     background-color: #bbb;
@@ -488,7 +504,7 @@ input[type=button]{
 
 #myDIV{
       margin-top: 0px;
-  }
+}
 
 
 .active-purple-3 input[type=text] {
@@ -508,8 +524,8 @@ input[type=button]{
 }
 
 .mapa{
-    margin-top: -50px;
-    margin-left: 125px;
+    margin-top: 50px;
+    text-align: center;
     color: #FFF;
     font-size: 40px;
 }

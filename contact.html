@@ -28,7 +28,7 @@
     <main>
         <div class = "h1">
             <div class = "logo">
-                <img onClick = "backToBegin()" src ="/img/mainICbg.png">
+                <img id = "MAINCLICK" onClick = "backToBegin()" src ="/img/mainICbg.png">
             </div>
             <div class = "support">
                 <ul>
@@ -81,23 +81,23 @@
                         <div >
                           <label for="name">Name</label>  
                           <div class="col-md-5">
-                          <input type="text" placeholder="Enter your name" >
+                          <input id = "name" type="text" placeholder="Enter your name" >
                           </div>
                         </div>
                           
                         <!-- Text input-->
                         <div >  
-                            <label for="name">Phone</label>  
+                            <label for="phone">Phone</label>  
                             <div class="col-md-5">
-                            <input type="text" placeholder="Enter your phone" >
+                            <input id = "phone" type="text" placeholder="Enter your phone" >
                             </div>
                         </div>
                         
                         <!-- Text input-->
                         <div >
-                            <label for="E-mail">E-mail</label>  
+                            <label for="email">E-mail</label>  
                             <div class="col-md-5">
-                            <input type="text" placeholder="Enter your E-mail" >
+                            <input id = "email" type="text" placeholder="Enter your E-mail" >
                             </div>
                         </div>
                         
@@ -105,25 +105,40 @@
                         <div >
                           <label>Message</label>
                           <div class="col-md-5">                     
-                            <textarea  cols="30" rows="6"></textarea>
+                            <textarea id = "msg" cols="30" rows="6"></textarea>
                           </div>
                         </div>
                         
                         <!-- Button -->
                         <div class="text-center" >
                           <br>
-                        <input id = "Send" value = "SEND" type = "button" onClick = "backToBegin()" ></input>
+                        <input id = "Send" value = "SEND" type = "button" onClick = "thiscontact()" ></input>
                           
                         </div>
                         
                 </fieldset>
             </form>
         </div>
-        <a href="#" class="float">
-            <i class="fa fa-plus my-float" onClick="diagnose()">+</i>
+        <a href="#" class="float" onClick="diagnose()">
+                <i class="fa fa-plus my-float" onClick="diagnose()"></i>
         </a>
     
         </main>
+        <div id = "finalibk">
+
+                <p id = "finali" >
+                            <br>
+                            <a href="https://github.com/mffdsp/WEB_PROJECT_P3/tree/master/js">Verificar JS</a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/main.css">CSS</a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/mffdsp/WEB_PROJECT_P3/blob/master/index.html">index.html</a>&nbsp;&nbsp;&nbsp;
+                            <a href="https://projeto-js-cdf7e.firebaseapp.com">HOST</a>&nbsp;&nbsp;&nbsp;
+                            <a href="mffsp@ic.ufal.br">mffsp@ic.ufal.br</a>&nbsp;&nbsp;&nbsp;
+            
+                            <br><br>
+                            <b>Siga meu <a href="https://github.com/mffdsp"> github</a> para atualizações.</b>
+                            
+                </p>
+        </div>        
     
 </body>
 <script src="js/index.js"></script>
@@ -133,7 +148,18 @@
 <script src="js/desise.js"></script>
 <script src="js/diag.js"></script>
 <script src="js/format.js"></script>
-<script>
 
+<script>
+    function thiscontact(){
+        if(document.getElementById("msg").value == "" || document.getElementById("email").value == "" || document.getElementById("phone").value == "" || document.getElementById("name").value == "")
+        {
+        alert("Todos os dados devem ser preenchidos!");
+        return;
+        }
+        else{
+            alert("Enviado com sucesso!");
+            backToBegin();
+        }
+    }
 </script>
 </html>
