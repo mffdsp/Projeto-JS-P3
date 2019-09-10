@@ -6,8 +6,9 @@
 	</h1>
 </div>
 <div align="center">
+	<a href="//www.google.com"><img src="https://static.wixstatic.com/media/0815e3_cf64e30eb89f4fbda7b90d2608ebfce9~mv2.jpg" class="media-object  img-responsive img-thumbnail"></a>
 	<img width="500" height="350" src="https://static.wixstatic.com/media/0815e3_cf64e30eb89f4fbda7b90d2608ebfce9~mv2.jpg"
-	     href = "google.com" alt="Awesome">
+	     alt="Awesome">
 <br>
 </div>
 
